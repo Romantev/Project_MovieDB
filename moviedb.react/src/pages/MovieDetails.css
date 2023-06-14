@@ -1,0 +1,44 @@
+.link-back {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.movie-details {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30%;
+  padding: 2rem;
+}
+
+.movie-details-section {
+  border: 3px solid black;
+  padding: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+}
+
+.movie-details-section h1 {
+  font-size: 3rem;
+}
+
+.movie-details-section h2 {
+  font-size: 2rem;
+  border: none;
+}
+
+.movie-details-section h3 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
